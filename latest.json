@@ -1,6 +1,15 @@
 {
-    "version":  "2026-10-30-34813fb",
+    "version":  "2026-10-30-30e046d",
     "zip":  "update.zip",
-    "size":  2048077,
-    "sha256":  "29C85539BCB6D007A1CBA92BACE67687D6A5FF21EC429CAF7C5071D3F3DA2C2D"
+    "size":  79121,
+    "sha256":  "5bea1615ab14f25ddfece541fd1802afe58ab127db8e6f926341b3a074930f75",
+    "updater":  {
+                    "file":  "Update-Prophecy.ps1",
+                    "sha256":  "88ebd6fccbdcb7b3aa1df247c65538fe389b06f6610914bf7e6cf41108b71141"
+                },
+    "payload":  {
+                    "zip":  "payload.zip",
+                    "size":  2050086,
+                    "sha256":  "95a537bb641a5ac6b3a422991b8f7769d20067236e4324eb00cf35b8439ec009"
+                }
 }
