@@ -60,8 +60,12 @@ try {
     exit $LASTEXITCODE
   }
 
-  $old = if (Test-Path $verFile) { (Get-Content $verFile -TotalCount 1).Trim() } else { '' }
+  # version.txt: line 1 the version, line 2 when it was published (none for a bootstrap).
+  $mine = @(if (Test-Path $verFile) { Get-Content $verFile | ForEach-Object { $_.Trim() } })
+  $old = if ($mine.Count) { $mine[0] } else { '' }
   if (-not $latest.version -or $latest.version -eq $old) { Done 0 'current' }
+  # Only forward: GitHub's cache can serve an older latest.json for a few minutes after a publish.
+  if ($latest.published -and $mine.Count -gt 1 -and $mine[1] -and [string]$latest.published -le $mine[1]) { Done 0 'current' }
 
   # 3. The payload. A feed from before the updater has only update.zip.
   $pkg = if ($latest.payload) { $latest.payload } else { [pscustomobject]@{ zip = 'update.zip'; size = $latest.size; sha256 = $latest.sha256 } }
