@@ -1,16 +1,16 @@
 {
-    "version":  "2026-10-31-780a02c",
-    "published":  "2026-10-31T10:59:23Z",
+    "version":  "2026-10-31-e7f46c4",
+    "published":  "2026-10-31T11:30:33Z",
     "zip":  "update.zip",
-    "size":  93180,
-    "sha256":  "abd9b864e5b5377eb87b88adc211a3936ea19d803cbccd0b0c5313072b63a89d",
+    "size":  93261,
+    "sha256":  "6c1975afe8e63b804e0f84edccb9b1225f5664d1198df2ac0913c9902ccb2c71",
     "updater":  {
                     "file":  "Update-Prophecy-d107810f88fa.ps1",
                     "sha256":  "d107810f88fa9f277f09d0c3086fad9169e75f1d2bb76405362f23b19912a8d9"
                 },
     "payload":  {
-                    "zip":  "payload-2026-10-31-780a02c.zip",
-                    "size":  2064160,
-                    "sha256":  "53bda33082d4ffb54ce68a431b173a5793b2d8ff29b68099f8ee23c29c7ca8bc"
+                    "zip":  "payload-2026-10-31-e7f46c4.zip",
+                    "size":  2064241,
+                    "sha256":  "5478cbe048dceadc025afe669da78998d12da64068a8f836fe4818564d90a1cf"
                 }
 }
