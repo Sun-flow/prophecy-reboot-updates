@@ -1,18 +1,18 @@
 {
-    "version":  "2026-10-31-27a323f",
-    "published":  "2026-11-01T06:15:34Z",
+    "version":  "2026-11-01-a5ac88e",
+    "published":  "2026-11-01T07:36:19Z",
     "channel":  "live",
     "friend_check":  "RESULT ok 13 patches in place",
     "zip":  "update.zip",
-    "size":  113362,
-    "sha256":  "38d5cfbffcc42b7f4a5246a3ca2408f73f13ee0564776fa33e6ab61690ea0165",
+    "size":  113907,
+    "sha256":  "9ebbfb421370fcf4da8374f00245981c7e9f117a1942a54bb41f7cb61f4cceee",
     "updater":  {
                     "file":  "Update-Prophecy-d107810f88fa.ps1",
                     "sha256":  "d107810f88fa9f277f09d0c3086fad9169e75f1d2bb76405362f23b19912a8d9"
                 },
     "payload":  {
-                    "zip":  "payload-2026-10-31-27a323f.zip",
-                    "size":  2084346,
-                    "sha256":  "198a0e773686fd60a77ecc7049e0bbbdfdf599c988211ca79756df04eb51cc81"
+                    "zip":  "payload-2026-11-01-a5ac88e.zip",
+                    "size":  2086248,
+                    "sha256":  "8a9ce239bfa169d061571ac0f85efc1c993061dbc8675cfaf65152d0499ef6be"
                 }
 }
